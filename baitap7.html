@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai7</title>
+</head>
+<body>
+<script>
+    let a=parseFloat(prompt('nhap a'));
+    let b=parseFloat(prompt('nhap b'));
+    let c=parseFloat(prompt('nhap c'))
+    let delta=(b^2)-(4*a*c);
+    if(delta<o){
+        document.write('phuong trinh vo nghiem');
+    }else if(delta==0) {
+        let x=(-b)/2*a;
+        document.write('phuong trinh co 2 nghiem kep la x1=x2='  +x);
+    }else {
+        let x1=(-b+)/2*a;
+        let x2=(-b-)/2*a;
+        document.write('phuong trinh co  nghiem x1='  +x1);
+        document.write('phuong trinh co nghiem x2='  +x2);
+    }
+</script>
+</body>
+</html>
